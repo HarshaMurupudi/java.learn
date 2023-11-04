@@ -18,6 +18,11 @@ public class JArrays {
 
         //Utilities
         System.out.println(Arrays.toString(objectArray));
+        Arrays.sort(numbers);
+        Arrays.fill(numbers, 2);
+        Arrays.copyOf(numbers, 5);
+
+        //Search
     }
 
 }
