@@ -22,7 +22,7 @@ public class JArrays {
         Arrays.fill(numbers, 2);
         Arrays.copyOf(numbers, 5);
 
-        //Search
+        //Search array
     }
 
 }
