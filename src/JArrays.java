@@ -22,7 +22,15 @@ public class JArrays {
         Arrays.fill(numbers, 2);
         Arrays.copyOf(numbers, 5);
 
-        //Search array
+        // Search array
+        // Binary Search
+        String[] sArray = {"Able", "Jane", "Mark"};
+        Arrays.sort(sArray);
+        // return index of the item if found or -1
+        int rArray = Arrays.binarySearch(sArray, "Mark");
+        if(rArray >= 0 ){
+            System.out.println("Found Mark in the list");
+        }
     }
 
 }
