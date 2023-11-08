@@ -1,8 +1,9 @@
-public class IfElse {
+public class Conditionals {
 
     public static void main(String[] args) {
         String test = "test";
 
+        //If Else
         if (test == "test") {
             System.out.println("test");
         } else if (test == "Test") {
