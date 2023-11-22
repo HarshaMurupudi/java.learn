@@ -1,4 +1,4 @@
-package Encapsulation;
+package Polymorphism.Encapsulation;
 
 //no constructor
 public class Player {
