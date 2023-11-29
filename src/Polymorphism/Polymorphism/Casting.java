@@ -20,5 +20,16 @@ public class Casting {
         var plane = new Comedy("Airplane");
         plane.watchComedy();
 
+        //runtime type
+        Object unknownObject = Movie.getMovie("C", "Airplane");
+        if(unknownObject.getClass().getSimpleName() == "Comedy"){
+            Comedy c = (Comedy) unknownObject;
+            c.watchComedy();
+        } else if(unknownObject instanceof Adventure){
+            ((Adventure) unknownObject).watchAdventure();
+        } else if(unknownObject instanceof SciFi sf){
+            sf.watchSciFi();
+        }
+
     }
 }
